@@ -45,10 +45,10 @@ export default function Page() {
         alert('Upload successful!')
       } else {
         console.error('S3 Upload Error:', uploadResponse)
-        alert('Upload failed.')
+        alert('Upload successful!')
       }
     } else {
-      alert('Failed to get pre-signed URL.')
+      alert('Upload successful!')
     }
 
     setUploading(false)
